@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 2.25rem;
+}
+.nav-item {
+    margin-right: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+/* Description */
+.desc {
+    background-image:url(./Assets/forganic-farm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
+.desc h1,p {
+    background-color: black;
+    color: white;
+}
+.desc h1 {
+    display: inline;
+}
+
+/* CAS Areas */
+.container .cas-areas {
+    justify-content: center;
+}
+.cas-areas > div > div {
+    font-size: 2rem;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    letter-spacing: 0.2rem;
+
+}
+
+/* Learning Outcomes */
+.learning-outcomes .card-text {
+    background-color: white !important;
+    color: black;
+}
+
+
+
+/* Carousel */
+
+.carousel-item img {
+    width: 80rem; 
+    height: 500px; 
+    object-fit: cover;
+}
+
+/* Reflection */
+
+.reflection .bg-body-secondary {
+    border-radius: 0.8rem;
+}
